@@ -32,6 +32,7 @@ class UserProductsScreen extends StatelessWidget {
               UserProductItem(
                 imageUrl: productsData.items[i].imageUrl,
                 title: productsData.items[i].title,
+                id: productsData.items[i].id,
               ),
               Divider(),
             ],
